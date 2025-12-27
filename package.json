@@ -1,0 +1,22 @@
+{
+  "name": "software-testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajdin111/Software-Testing-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajdin111/Software-Testing-Project/issues"
+  },
+  "homepage": "https://github.com/Ajdin111/Software-Testing-Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
