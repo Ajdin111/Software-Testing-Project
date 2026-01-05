@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { SearchPage } from '../pages/SearchPage';
+import { HomePage } from '../../pages/HomePage';
+import { SearchPage } from '../../pages/SearchPage';
 
 test.describe('TC_13: Smoke Test - Search Functionality', () => {
   let homePage: HomePage;

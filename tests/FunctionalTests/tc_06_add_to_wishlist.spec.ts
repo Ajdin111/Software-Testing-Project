@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { ProductPage } from '../pages/ProductPage';
+import { LoginPage } from '../../pages/LoginPage';
+import { ProductPage } from '../../pages/ProductPage';
 
 test.describe('TC_06: Add Product to Wish List', () => {
   let loginPage: LoginPage;

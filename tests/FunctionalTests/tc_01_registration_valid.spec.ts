@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { RegistrationPage } from '../pages/RegistrationPage';
+import { RegistrationPage } from '../../pages/RegistrationPage';
 
 test.describe('TC_01: User Registration with Valid Data', () => {
   let registrationPage: RegistrationPage;

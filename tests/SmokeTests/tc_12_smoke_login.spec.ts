@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
+import { LoginPage } from '../../pages/LoginPage';
 
 test.describe('TC_12: Smoke Test - User Can Login', () => {
   let loginPage: LoginPage;

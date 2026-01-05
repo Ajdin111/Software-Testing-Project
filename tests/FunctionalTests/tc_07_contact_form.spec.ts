@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ContactPage } from '../pages/ContactPage';
+import { ContactPage } from '../../pages/ContactPage';
 
 test.describe('TC_07: Submit Contact Form with Valid Data', () => {
   let contactPage: ContactPage;
