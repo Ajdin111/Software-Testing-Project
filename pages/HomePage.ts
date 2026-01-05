@@ -53,4 +53,13 @@ export class HomePage {
   async getPageTitle() {
     return await this.page.title();
   }
+
+  async clickMyAccount() {
+    await this.page.locator(this.myAccountDropdown).click();
+}
+
+  async clickLogout() {
+    await this.page.locator('a[href*="account/logout"]').click();
+}
+
 }
