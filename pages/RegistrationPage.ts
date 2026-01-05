@@ -11,7 +11,7 @@ export class RegistrationPage {
   readonly passwordConfirmInput = '#input-confirm';
   readonly privacyPolicyCheckbox = 'input[name="agree"]';
   readonly continueButton = 'input[type="submit"][value="Continue"]';
-  readonly errorMessage = '.text-danger';
+  readonly errorMessage = '.alert-danger';
   readonly successMessage = '#content h1';
   readonly pageHeading = 'h1:has-text("Register Account")';
 

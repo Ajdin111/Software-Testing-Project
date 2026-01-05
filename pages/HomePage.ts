@@ -59,7 +59,7 @@ export class HomePage {
 }
 
   async clickLogout() {
-    await this.page.locator('a[href*="account/logout"]').click();
+    await this.page.locator('a[href*="account/logout"]').first().click();
 }
 
 }
